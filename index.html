@@ -1,1 +1,70 @@
-Maaf, Halaman yang anda buka sedang sibuk. Harap buka beberapa saat kembali.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dimas</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+<!-- Judul -->
+<div class="container">
+	<div class="row h1">
+		<div class="col-lg-6"></div>
+		<div class="col-lg-6">
+			<h1>Dimas Putra Y</h1>
+			<h4>( 私はハンサムです )</h4>
+			<p>はじめまして !<br>私はディマスです , インドネシアから来ました ジョグジャカルタに住んでいます.</p>
+		</div>
+	</div>	
+</div>
+<!-- End of Judul -->
+
+<!-- h2 -->
+<div class="container-fluid h2">
+	<div class="row">
+		<div class="col-md-6"></div>
+		<div class="col-md-6">
+				<div class="about">
+					<h2>About Me</h2>
+					<div class="garis-batas"></div>
+				</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="bungkus">
+			<div class="tug"><img src="assets/img/thug.png" style="height: 250px;"></div>
+		</div>
+	</div>
+</div>
+<!-- End of h2 -->
+
+
+<!-- js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+<script>
+	$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+  
+    if (scroll >= 560) {
+        $(".about").addClass("stopabout");
+    } else {
+        $(".about").removeClass("stopabout");
+    }
+    if (scroll >= 1130) {
+        $(".tug").addClass("stop");
+    } else {
+        $(".tug").removeClass("stop");
+    }
+});
+</script>
+</body>
+</html>
