@@ -4,7 +4,13 @@
 	<title>Dimas</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">\
+
+	<meta name="description" content="Profile Dimas Putra Y">
+	<link rel="icon" href="assets/img/favicon.png">
+  	<meta name="keywords" content="Dimas Putra Y, Dimput">
+  	<meta name="author" content="Dimas Putra Y">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 </head>
@@ -58,6 +64,158 @@
 </div>
 <!-- End of tug -->
 
+<!-- h4 -->
+<div class="container-fluid h4">
+	<div class="row">
+		<div class="col-md-6"></div>
+		<div class="col-md-6">
+				<div class="abouth4">
+					<h2>Skill</h2>
+					<div class="garis-batas"></div>
+				</div>
+		</div>
+	</div>
+</div>
+<!-- End of h4 -->
+
+<!-- skill -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6"></div>
+		<div class="col-md-6">
+			<div class="skill">
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Programming</h4>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="bar" style="width: 100%;"></div>
+						</div>
+						<div class="col-md-2">
+							100%
+						</div>
+					</div>
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Design</h4>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div  style="padding-right: 15px;padding-left: 15px;width: 60%;">
+							<div class="bar"></div>
+						</div>
+						<div class="col-md-2">
+							60%
+						</div>
+					</div>
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Website</h4>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="bar" style="width: 100%;"></div>
+						</div>
+						<div class="col-md-2">
+							100%
+						</div>
+					</div>
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Team Work</h4>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="bar" style="width: 100%;"></div>
+						</div>
+						<div class="col-md-2">
+							100%
+						</div>
+					</div>
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Problem Solving</h4>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="bar" style="width: 100%;"></div>
+						</div>
+						<div class="col-md-2">
+							100%
+						</div>
+					</div>
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Analytical Skills</h4>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="bar" style="width: 100%;"></div>
+						</div>
+						<div class="col-md-2">
+							100%
+						</div>
+					</div>
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>UI/UX</h4>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="bar" style="width: 100%;"></div>
+						</div>
+						<div class="col-md-2">
+							100%
+						</div>
+					</div>
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Creative</h4>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="bar" style="width: 100%;"></div>
+						</div>
+						<div class="col-md-2">
+							100%
+						</div>
+					</div>
+				</div>
+			</div><br>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End of Skill -->
 
 <!-- js -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -68,6 +226,17 @@
     var scroll = $(window).scrollTop();
 
   
+    if (scroll >= 3560) {
+        $(".abouth4").addClass("stopabouth4");
+    } else {
+        $(".abouth4").removeClass("stopabouth4");
+    }
+    if (scroll >= 4270) {
+        $(".abouth4").addClass("stopskill");
+        $(".abouth4").removeClass("stopabouth4");
+    } else {
+        $(".abouth4").removeClass("stopskill");
+    }
     if (scroll >= 560) {
         $(".about").addClass("stopabout");
     } else {
@@ -84,10 +253,22 @@
         $(".paragraph").removeClass("stopparagraph");
     }
     if (scroll >= 2150) {
-        $(".tug").addClass("stopSet");
+        $(".about").addClass("stopSet");
+        $(".about").removeClass("stopabout");
+    } else {
+        $(".about").removeClass("stopSet");
+    }
+    if (scroll >= 2450) {
+        $(".paragraph").addClass("stopSet1");
+        $(".paragraph").removeClass("stopparagraph");
+    } else {
+        $(".paragraph").removeClass("stopSet1");
+    }
+    if (scroll >= 2750) {
+        $(".tug").addClass("stopSet2");
         $(".tug").removeClass("stop");
     } else {
-        $(".tug").removeClass("stopSet");
+        $(".tug").removeClass("stopSet2");
     }
 });
 </script>
