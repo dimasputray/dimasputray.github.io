@@ -60,11 +60,43 @@ body {
 
 .skill{
 	min-height: 400px;
+	color: white;
 }
+
+.footer {
+	background-color: #212529;
+	padding-top: 200px;
+	width: 100%;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.experience{
+	background-color: #dedede;
+	height: 150vh;
+	margin-top: 50px;
+	overflow: auto;
+}
+
+.serti {
+	height: 200px;
+}
+.serti2 {
+	height: 400px;
+}
+
+.contact {
+	padding: 50px;
+	background-color: white;
+}
+
 .h3 {
 	min-height: 350px;
 }
-
+.topexperience {
+	width: 150px;
+	margin: 50px auto;
+}
 
 .stopSet{
 	margin-top: 1580px;
