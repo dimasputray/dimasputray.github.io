@@ -21,7 +21,11 @@ body {
 	font-size: 70px;
 	color: white;
 }
-
+.bar {
+	margin-top: 10px;
+	min-height: 5px;
+	background-color: white;
+}
 .h1 h4{
 	color: white;
 }
@@ -50,14 +54,26 @@ body {
 	min-height: 5px;
 	background-color: white;
 }
+.h4{
+	min-height: 800px;
+}
 
+.skill{
+	min-height: 400px;
+}
 .h3 {
 	min-height: 350px;
 }
 
-.stopSet{
-	margin-top: 350px;
 
+.stopSet{
+	margin-top: 1580px;
+}
+.stopSet1{
+	margin-top: 300px;
+}
+.stopSet2{
+	margin-top: 125px;
 }
 
 .paragraph{
@@ -71,7 +87,7 @@ body {
 }
 
 .bungkus {
-	min-height: 900px;
+	min-height: 800px;
 }
 
 .about {
@@ -84,6 +100,14 @@ body {
 .stopabout {
     top: 150px;
     position: fixed;
+}
+.stopabouth4 {
+    top: 40px;
+    position: fixed;
+}
+
+.stopskill {
+	margin-top: 720px;
 }
 .stopparagraph{
     top: 250px;
