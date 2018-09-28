@@ -1,0 +1,113 @@
+body {
+	min-height: 1000px;
+	background-image: url(../img/dim.png);
+	background-size: 570px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 140px 60px;
+    background-color: black; 
+}
+
+.transparent {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.h1{
+	margin-top: 200px;
+	height: 80vh;
+}
+
+.h1 h1{
+	font-size: 70px;
+	color: white;
+}
+
+.h1 h4{
+	color: white;
+}
+
+.h1 p{
+	font-size: 20px;
+	color: rgb(100,100,100);
+}
+.h2 {
+	min-height: 600px;
+}
+.col-md-6 h2{
+	padding: 10px;
+	color: white;
+}
+
+.garis-batas{
+	width: 45px;
+	margin-left: 10px;
+	min-height: 5px;
+	background-color: white;
+}
+
+.tug {
+	margin-left: 170px;
+}
+
+.bungkus {
+	min-height: 800px;
+}
+
+.about {
+	
+}
+.stop {
+    top: 190px;
+    position: fixed;
+}
+.stopabout {
+    top: 150px;
+    position: fixed;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	body {
+	min-height: 1000px;
+	background-image: url(../img/dim.png);
+	background-size: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+    background-color: black; 
+	}
+	.h1{
+	margin-top: 150px;
+	}
+
+	.h1 h1{
+	font-size: 100px;
+	}
+	.h1 h4{
+		font-size: 50px;
+	}
+	.h1 p{
+	font-size: 40px;
+	}
+}
+
+
+@media only screen and (max-width: 1000px) and (min-device-width : 667px){
+	body {
+	min-height: 1000px;
+	background-image: url(../img/dim.png);
+	background-size: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+    background-color: black; 
+	}
+	.h1{
+	margin-top: 240px;
+	}
+
+	.h1 h1{
+		font-size: 50px;
+	}
+}
