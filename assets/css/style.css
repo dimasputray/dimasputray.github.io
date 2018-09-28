@@ -31,13 +31,19 @@ body {
 	color: rgb(100,100,100);
 }
 .h2 {
-	min-height: 600px;
+	min-height: 900px;
 }
 .col-md-6 h2{
 	padding: 10px;
+	font-size: 50px;
 	color: white;
 }
 
+.balik-dia{
+	font-weight: bold;
+	background-color:rgb(200,200,200);
+	color: black;
+}
 .garis-batas{
 	width: 45px;
 	margin-left: 10px;
@@ -45,12 +51,27 @@ body {
 	background-color: white;
 }
 
+.h3 {
+	min-height: 350px;
+}
+
+.stopSet{
+	margin-top: 350px;
+
+}
+
+.paragraph{
+	padding: 10px;
+	font-size: 25px;
+	color: rgb(200,200,200);
+}
+
 .tug {
 	margin-left: 170px;
 }
 
 .bungkus {
-	min-height: 800px;
+	min-height: 900px;
 }
 
 .about {
@@ -62,6 +83,10 @@ body {
 }
 .stopabout {
     top: 150px;
+    position: fixed;
+}
+.stopparagraph{
+    top: 250px;
     position: fixed;
 }
 
