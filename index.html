@@ -80,7 +80,7 @@
 
 <!-- skill -->
 <div class="container-fluid">
-	<div class="row">
+	<div class="row hehehe">
 		<div class="col-md-6"></div>
 		<div class="col-md-6">
 			<div class="skill">
@@ -273,11 +273,9 @@
 
 
 <!-- copyright -->
-<div class="container-fluid">
-	<div class="row">
-		<div class="footer text-center">
-			<p>&copy; Dimas Putra Y あなたのすべての力で作られた<p>
-		</div>
+<div class="container-fluid footer1">
+	<div class="container">
+		<p>&copy; Dimas Putra Y あなたのすべての力で作られた<p>
 	</div>
 </div>
 
@@ -298,11 +296,10 @@
     } else {
         $(".abouth4").removeClass("stopabouth4");
     }
-    if (scroll >= 4270) {
-        $(".abouth4").addClass("stopskill");
-        $(".abouth4").removeClass("stopabouth4");
+    if (scroll >= 4250) {
+        $(".skill").addClass("stopabouth4ku");
     } else {
-        $(".abouth4").removeClass("stopskill");
+        $(".skill").removeClass("stopabouth4ku");
     }
     if (scroll >= 560) {
         $(".about").addClass("stopabout");
