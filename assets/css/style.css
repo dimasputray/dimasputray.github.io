@@ -57,14 +57,19 @@ body {
 	min-height: 800px;
 }
 
+.hehehe{
+	min-height: 700px;
+}
+
 .skill{
-	min-height: 400px;
+	z-index: -1000;
 	color: white;
 }
 
-.footer {
+.footer1 {
+	height: 100px;
 	background-color: #212529;
-	padding-top: 200px;
+	padding-top: 50px;
 	width: 100%;
 	color: white;
 	padding-bottom: 20px;
@@ -125,16 +130,28 @@ body {
 	
 }
 
-
+.container-fluid{
+	z-index: 1;
+}
 .stop {
     top: 190px;
     position: fixed;
 }
-
+.abouth4{
+	z-index: -1000;
+}
 .stopabout {
     top: 150px;
     position: fixed;
 }
+
+
+.stopabouth4ku {
+    top: 140px;
+    width: 47.5%;
+    position: fixed;
+}
+
 .stopabouth4 {
     top: 40px;
     position: fixed;
@@ -158,6 +175,20 @@ and (max-device-width : 667px) {
     background-attachment: fixed;
     background-position: 10px 200px;
     background-color: black; 
+	}
+	.experience{
+		min-height: 350vh;
+	}
+
+	.footer1 {
+		padding-top: 10px
+		width: 80%;
+		font-size: 15px;
+	}
+
+	.row .footer p{
+		width: 80%;
+		margin: 0px auto;
 	}
 	.h1{
 	margin-top: 10px;
